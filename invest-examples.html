@@ -1,0 +1,84 @@
+<!--投資案例網頁 invest-examples.html -->
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <title>投資案例</title>
+  <meta charset="utf-8">
+  <meta name="description" content="理財網站設計：運用HTML 5, CSS 3, BootStrap 4 和Javascript 設計響應式理財網站及其WebAPP">
+  <meta name="keywords" content="幸福人生,理財,投資,Web APP">
+  <meta name="author" content="蔡承伯">
+<!-- bootstrap cdn files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- css for the project -->
+<link rel="stylesheet" type="text/css" href="css/mystyles.css">
+<style>
+  h3{     
+    color: brown;
+    font-size: 22px; 
+    font-weight: bold;
+  }
+  h4{     
+    color: #01400e;
+    font-size: 20px; 
+    font-weight: bold;
+  }
+  li,p {
+    font-size: 18px; 
+    text-align: justify;
+  }
+</style>
+</head>
+<body>
+  <div id="header" class="container text-center">
+    <h2 style="font-weight: bold;">響應式網站設計：理財WebAPP</h2>
+    <img src="images/csic.png" height="42" class="img-fluid">
+  </div>
+
+  <div id=main class="container"><br>
+    <h3>投資案例</h3>
+      <p>在進行投資前，為了幫助投資者進一步預期定存、基金、ETF三種工具的投資效率，本專題運用Javascript設計了二款Web APP：</p>
+
+      <ol>
+        <li><a href="webapp-single.html">單筆投資網頁程式</a></li>
+        <li><a href="webapp-fpfam.html">定期定額網頁程式</a></li>
+      </ol>
+      <p>投資者可以先挑選單筆投資或定期定額，並設定投資金額、投資年限、預估利率，本專題的投資網頁程式可以立即計算出最終投資效益。這項投資報酬功能可以幫助投資者了解可能的投資總報酬，藉此可提升投資者信心和耐心，達成理財投資的最終目的：<b>財富自由</b>。</p>
+       <p><b>投資案例1：</b>假設某學生年16歲，目前每月可存錢1000元，若比較利用活期儲蓄存款和定期定額(基金、ETF)2種投資工具，試求2年後，當他18歲要進入大學時，可以累積出多少錢? 哪種工具效率較高?</p>
+<p>ANS: 依(國泰)活期儲蓄存款利率0.725、元大00937B投等債ETF殖利率6%為現實條件來計算，2年後可以累積出：</p>
+<pre>
+    活期儲蓄存款      = 24,182元
+    00937B投等債ETF  = 25,559元
+</pre>
+
+
+  <p>採ETF投資效率高出 <b>5.69%</b>：(25559-24182) / 24182</p><br>
+
+        <p><b>投資案例2：</b>該學生將25,559元單筆投資(基金、ETF)，在65歲退休時，可以累積出多少私房錢?</p>
+
+  <p>ANS: 依元大00937B 投等債ETF殖利率6%為現實條件來計算，47年後可以累積出的私房錢  = <b>395,293元</b> 這筆錢當私房錢可以，但不夠養老!</p><br>
+
+  <p><b>投資案例3：</b>該學生為了退休後能夠安心養老，繼續採用投資效率較高的ETF來存錢，在該學生大學打工階段，從每月工資拿出3000元中買市值型 006208 (0050) ETF，不知60歲時能否達到財富自由而選擇提早退休？</p>
+
+  <p>ANS: 依006208 (0050) ETF 過去長期投資報酬率<b>11.5%</b>為條件，以每月3000元定期定額方式連續投入ETF 42年可求出</p>
+  <p>60歲時ETF的<b>期末總資產1 = 38,356,410元</b> 這筆錢應可安心養老了；</p>
+  <p>假設30歲起，因升任小主管每月可在增加5000元投入ETF，那結果會如何?<br>
+  60歲時ETF的<b>期末總資產2  = 15,795,421元</b> 再加這筆錢可更安心養老了；</p>
+  <p>假設40歲時，因繼承或獎金得到100萬元，單筆再度投入ETF，那結果又會如何?</p>
+  <p>60歲時ETF的<b>期末總資產3  = 8,820,584元</b>再加這筆錢又更加安心了</p>
+  <p style="color: brown;"><b>60歲時的資產1+2+3    = 約6298萬元</b></p><br>
+
+    <h4  style="font-family:標楷體; color: brown; border:1px solid;">
+    72法則 :   72÷年化報酬率 ＝ 本金翻倍的時間
+    </h4><br>
+ 
+  </div>
+
+  <div id="footer" class="container">
+    <a href="index.html"><img src="images/gohome.png" height="50px"></a>
+    中山工商資訊科學生(蔡承伯,陳政嘉,吳承翰)專題製作
+  </div>
+  
+</body>
+</html>
